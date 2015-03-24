@@ -119,7 +119,3 @@ FayeAuthentication.prototype.incoming = function(message, callback) {
     callback(message);
   }
 };
-
-$(function() {
-  Faye.extend(FayeAuthentication.prototype, Faye.Logging);
-});
